@@ -10,10 +10,10 @@ This is a web application for chatting. Users can register to the chat applicati
 Once registered, user can login and start chatting with other registered users. Users can see who are registerd users and who 
 all are online / offline.
 
-Modules:
-1. Login
-2. Chat window
-3. Online users
+Modules:  
+1. Login  
+2. Chat window  
+3. Online users  
 
 
 Login Module: Login module is developed leveraging the Meteor accounts package. This reusable package comes with lot of options
@@ -22,3 +22,8 @@ like integrating with authentication of facebook/twitter etc. Refer the document
 Chat window: This module lets user to type in messages and show it over a chat window. Messages from other users are shown here
 
 Online users: This module deals with showing the registered users and about the online and offline users
+
+TODO:  
+1. Change the Avatar icons for message and user list  
+2. Show the time stamp of each message. Now everything is hardcoded  
+3. Limit the number of chat messages to show  
