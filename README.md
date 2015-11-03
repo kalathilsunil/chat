@@ -27,3 +27,4 @@ TODO:
 1. Change the Avatar icons for message and user list  
 2. Show the time stamp of each message. Now everything is hardcoded  
 3. Limit the number of chat messages to show  
+4. Change application name to something more apt  
