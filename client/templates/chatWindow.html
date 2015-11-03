@@ -1,0 +1,43 @@
+<template name = "chatWindow">
+
+	<div class="col-md-5">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h5>Messages</h5>
+						
+		</div>
+				
+	<div class="panel-body" id ="chats">	
+	<ul class="chat">
+	{{#each messages}}
+    <li class="left clearfix"><span class="chat-img pull-left">
+        <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+    </span>
+        <div class="chat-body clearfix">
+            <div class="header">
+                <strong class="primary-font">{{user}}</strong> <small class="pull-right text-muted">
+                    <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+            </div>
+            <p>{{message}}</p>
+        </div>
+    </li>
+	{{/each}}	
+	</ul>    
+
+
+	</div>
+	
+	</div>
+	<div class="panel-footer">
+		<form class="form-inline">
+			<textarea class="form-control" rows="3" id="mymessage"></textarea>
+			<button type="submit" class="btn btn-default">Send</button>
+		</form>
+	</div>	
+	</div>
+	
+
+	
+
+	
+</template>
