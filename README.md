@@ -1,14 +1,14 @@
 # chat
-academic chat project
+Academic chat project  
 
-Framework used : Meteor (www.meteor.com)
-Database used : Mongodb. Mongodb is a NoSQL database
-Coding language : Javascript and HTML
+Framework used : Meteor (www.meteor.com)  
+Database used : Mongodb. Mongodb is a NoSQL database  
+Coding language : Javascript and HTML  
 
-About the application.
-This is a web application for chatting. Users can register to the chat application by providing an username, email and password.
+About the application.  
+This is a web application for chatting. Users can register to the chat application by providing an username, email and password.  
 Once registered, user can login and start chatting with other registered users. Users can see who are registerd users and who 
-all are online / offline.
+all are online / offline.  
 
 Modules:  
 1. Login  
