@@ -81,6 +81,11 @@ body{
 	}
 
 
+.panel-primary{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
 .chat
 {
     list-style: none;
