@@ -5,6 +5,10 @@ Framework used : Meteor (www.meteor.com)
 Database used : Mongodb. Mongodb is a NoSQL database  
 Coding language : Javascript and HTML  
 
+Meteor dependencies:
+meteor add mizzao:bootstrap-3
+meteor add momentjs:moment
+
 About the application.  
 This is a web application for chatting. Users can register to the chat application by providing an username, email and password.
 Once registered, user can login and start chatting with other registered users. Users can see who are registerd users and who all are online / offline.
