@@ -21,6 +21,10 @@ Template.chatWindow.helpers({
 	avatarText: function(){
 		// Return the first character of username in uppercase to show as avatar text
 		return(this.user.charAt(0).toUpperCase());
+	},
+	
+	isMine: function(){
+		return this.user == Meteor.user().username;
 	}
 });
 

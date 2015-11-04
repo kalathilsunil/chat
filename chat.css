@@ -7,8 +7,6 @@ body{
 
 .welcome{
 	color : #000000;
-	
-	
 }
 
 .well{
@@ -16,7 +14,12 @@ body{
 	background-color: rgba(245, 245, 245, 0.4);
 }
 
+/* To show a different background to chat messages form the current user */
+.mychat{
+	 background-color: #F5F5F5;
+}
 
+/* Round shaped Avatar for showing users in the chatwindow */
 .round-heading{
 	
 	width:50px;
@@ -27,7 +30,7 @@ body{
 	margin:5px;
 	
 	}
-	
+/* Style for text inside the round shaped Avatar for showing users in the chatwindow */	
 .round-heading h1{
 	
 	font-size:20px;
@@ -38,6 +41,7 @@ body{
 		
 	}
 
+/* Round shaped Avatar for showing Online users in the userlist */
 .avatar-online{
 
 	width:50px;
@@ -48,7 +52,7 @@ body{
 	margin:5px;
 
 	}
-
+/* Style for text inside the round shaped Avatar for showing online users in the userlist */	
 .avatar-online h1{
 
 	font-size:20px;
@@ -59,6 +63,7 @@ body{
 
 	}
 
+/* Round shaped Avatar for showing Offline users in the userlist */
 .avatar-offline{
 
 	width:50px;
@@ -70,6 +75,7 @@ body{
 
 	}
 
+/* Style for text inside the round shaped Avatar for showing Offline users in the userlist */	
 .avatar-offline h1{
 
 	font-size:20px;
@@ -93,10 +99,11 @@ body{
     padding: 0;
 }
 
+
 .chat li
 {
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
     border-bottom: 1px dotted #B3A9A9;
 }
 

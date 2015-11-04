@@ -10,6 +10,18 @@
 	<div class="panel-body" id ="chats">	
 	<ul class="chat">
 	{{#each messages}}
+	{{#if isMine}}
+    <li class="left clearfix mychat">		
+		<span class = "round-heading pull-left"><h1>{{avatarText}}</h1></span>
+        <div class="chat-body clearfix">
+            <div class="header">
+                <strong class="primary-font">{{user}}</strong> <small class="pull-right text-muted">
+                    <span class="glyphicon glyphicon-time"></span>{{messagetime}}</small>
+            </div>
+            <p>{{message}}</p>
+        </div>
+    </li>
+	{{else}}
     <li class="left clearfix">		
 		<span class = "round-heading pull-left"><h1>{{avatarText}}</h1></span>
         <div class="chat-body clearfix">
@@ -20,6 +32,7 @@
             <p>{{message}}</p>
         </div>
     </li>
+	{{/if}}
 	{{/each}}	
 	</ul>    
 
@@ -38,5 +51,9 @@
 
 	
 
+	
+</template>
+
+<template name = "othersChat">
 	
 </template>
