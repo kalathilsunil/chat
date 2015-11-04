@@ -1,4 +1,4 @@
-chat
+Chat  
 Academic chat project
 
 Framework used : Meteor (www.meteor.com)
