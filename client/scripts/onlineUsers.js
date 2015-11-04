@@ -1,6 +1,6 @@
 Template.onlineUsers.helpers({
 	allusers: function(){
-		return Meteor.users.find({});
+		return Meteor.users.find({},{sort:{"profile.status": -1}});
 	
 	},
 	
