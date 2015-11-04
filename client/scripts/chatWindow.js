@@ -2,6 +2,10 @@ Template.chatWindow.helpers({
 	messages:function(){
 		
 		return chatMessages.find({});
+	},
+	
+	avatarText: function(){
+		return(this.user.charAt(0).toUpperCase());
 	}
 });
 
